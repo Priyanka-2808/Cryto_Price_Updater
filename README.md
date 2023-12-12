@@ -8,17 +8,15 @@ This Node.js application fetches and stores the names and IDs of all cryptocurre
 - Routes
 - Background Job
 - Dependencies
-- License
-- Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/Priyanka-2808/Cryto_Price_Updater.git
 cd crypto-list-updater
 ```
 
-2. Install dependencies:
+### 2. Install dependencies:
 ```bash
 npm install
 Set up a MongoDB server and update the connection string in server.js
@@ -28,7 +26,7 @@ Set up a MongoDB server and update the connection string in server.js
 mongoose.connect('mongodb://localhost:27017/crypto-list-updater', { useNewUrlParser: true, useUnifiedTopology: true });
 ```
 
-###. Usage
+### Usage
 Run the application:
 ```bash
 node server.js
@@ -36,7 +34,7 @@ node server.js
 
 Visit http://localhost:3000/update-cryptos to manually update cryptocurrency names initially. The background job will automatically update them every hour.
 
-###. Routes
+### Routes
 > [!NOTE]
 > Update Cryptos
 > Endpoint: /update-cryptos
@@ -45,7 +43,7 @@ Visit http://localhost:3000/update-cryptos to manually update cryptocurrency nam
 > Background Job
 > The application uses the node-cron package to schedule a background job that updates the cryptocurrency list every hour. The job is defined in the server.js file.
 
-###. Dependencies
+### Dependencies
 > [!IMPORTANT]
 > express: Web application framework for Node.js.
 > mongoose: MongoDB object modeling tool.
