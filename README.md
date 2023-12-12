@@ -1,19 +1,22 @@
-Crypto List Updater
-Overview
+# Crypto List Updater
+## Overview
 This Node.js application fetches and stores the names and IDs of all cryptocurrencies from Coingecko's API into a MongoDB database. It includes a background job that automatically updates the cryptocurrency list every hour.
 
-Table of Contents
-Installation
-Usage
-Routes
-Background Job
-Dependencies
-License
-Installation
-Clone the repository:
+>Table of Contents
+- Installation
+- Usage
+- Routes
+- Background Job
+- Dependencies
+- License
+- Installation
 
-bash
-Copy code
+1. Clone the repository:
+
+```javascript 
+console.log('Code Tab A');
+```
+
 git clone <repository_url>
 cd crypto-list-updater
 Install dependencies:
