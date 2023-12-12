@@ -26,7 +26,7 @@ Set up a MongoDB server and update the connection string in server.js
 mongoose.connect('mongodb://localhost:27017/crypto-list-updater', { useNewUrlParser: true, useUnifiedTopology: true });
 ```
 
-### Usage
+### 3. Usage
 Run the application:
 ```bash
 node server.js
@@ -34,13 +34,15 @@ node server.js
 
 Visit http://localhost:3000/update-cryptos to manually update cryptocurrency names initially. The background job will automatically update them every hour.
 
-### Routes
+### 4. Routes
 > [!NOTE]
 > Update Cryptos
 > Endpoint: /update-cryptos
 > Method: GET
 > Description: Fetches and stores the names and IDs of all cryptocurrencies from Coingecko's API.
-> Background Job
+
+### 5. Background Job
+> [!TIP]
 > The application uses the node-cron package to schedule a background job that updates the cryptocurrency list every hour. The job is defined in the server.js file.
 
 ### Dependencies
