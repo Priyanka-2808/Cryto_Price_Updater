@@ -34,7 +34,7 @@ node server.js
 
 Visit http://localhost:3000/update-cryptos to manually update cryptocurrency names initially. The background job will automatically update them every hour.
 
-![Alt text](C:\Users\Admin\Pictures\Screenshots\Screenshot 2023-12-12 121027.png)
+![Screenshot 2023-12-12 121027](https://github.com/Priyanka-2808/Cryto_Price_Updater/assets/87664708/364150b5-abc0-4f77-b236-a739dd76ba7e)
 
 ### 4. Routes
 > [!NOTE]
