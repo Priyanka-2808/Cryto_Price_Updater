@@ -1,9 +1,8 @@
-// models/Crypto.js
 const mongoose = require('mongoose');
 
 const cryptoSchema = new mongoose.Schema({
-  id: String,
-  name: String,
+    id: String,
+    name: String,
 });
 
 const Crypto = mongoose.model('Crypto', cryptoSchema);
